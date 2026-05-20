@@ -5,8 +5,8 @@
 //! addresses, UTxOs, and protocol parameters. As written this won't pass
 //! the validator — it just shows the shape of the API.
 
-use cardano_tx_builder::prelude::*;
-use cardano_tx_builder::value::{AssetName, Assets, PolicyId};
+use tx_builder::prelude::*;
+use tx_builder::value::{AssetName, Assets, PolicyId};
 
 fn main() -> Result<()> {
     // 1. Protocol parameters (fetch these from your node / Blockfrost /

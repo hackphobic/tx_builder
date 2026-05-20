@@ -1,4 +1,4 @@
-# cardano-tx-builder
+# tx_builder
 
 Ergonomic Cardano transaction builder built on top of [`cardano-serialization-lib`](https://docs.rs/cardano-serialization-lib) (CSL). Focused on dApp / Plutus script interactions and full Conway-era governance.
 
@@ -30,7 +30,7 @@ See [`examples/plutus_spend.rs`](examples/plutus_spend.rs) for a Plutus spend + 
 Minimal pubkey-only transfer:
 
 ```rust
-use cardano_tx_builder::prelude::*;
+use tx_builder::prelude::*;
 
 let tx = {
     let mut b = TxBuilder::new(&params);

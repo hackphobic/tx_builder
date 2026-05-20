@@ -2,7 +2,7 @@
 //! and serialize an unsigned pubkey-only transfer, and assert it round-trips
 //! through CBOR.
 
-use cardano_tx_builder::prelude::*;
+use tx_builder::prelude::*;
 
 fn dummy_params() -> ProtocolParameters {
     ProtocolParameters {

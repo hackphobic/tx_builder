@@ -1,5 +1,5 @@
 [package]
-name = "cardano-tx-builder"
+name = "tx_builder"
 version = "0.1.0"
 edition = "2021"
 description = "Ergonomic transaction builder on top of cardano-serialization-lib, focused on dApp / Plutus script interactions and Conway-era governance."

@@ -1,4 +1,4 @@
-//! # cardano-tx-builder
+//! # tx_builder
 //!
 //! Ergonomic transaction builder on top of
 //! [`cardano-serialization-lib`](https://docs.rs/cardano-serialization-lib)
@@ -25,7 +25,7 @@
 //! ## Quick start
 //!
 //! ```no_run
-//! use cardano_tx_builder::prelude::*;
+//! use tx_builder::prelude::*;
 //!
 //! # fn demo(params: ProtocolParameters, change: csl::Address, utxo: Utxo,
 //! #         dest: csl::Address) -> Result<()> {
