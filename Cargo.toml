@@ -1,0 +1,14 @@
+[package]
+name = "cardano-tx-builder"
+version = "0.1.0"
+edition = "2021"
+description = "Ergonomic transaction builder on top of cardano-serialization-lib, focused on dApp / Plutus script interactions and Conway-era governance."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+cardano-serialization-lib = "15"
+thiserror = "1"
+hex = "0.4"
+
+[dev-dependencies]
+# nothing yet; examples are self-contained
